@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University </title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <!-- <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/favicon.ico"> -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- navigation -->
+    <nav>
+        <img src="images\logo.jpg" alt="">
+        <div class="navigation">
+            <ul>
+                <i id="menu-close" class="fa fa-times"></i>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Courses</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <img id="menu-btn" src="images/menu.png" alt="">
+        </div>
+    </nav>
+
+    <!-- home -->
+    <section id="about-home">
+        <h2>About uniedu/</h2>
+    </section>
+
+    <!-- about-container -->
+
+    <section id="abt-container">
+        <div class="abt-image">
+            <!-- <img src="images/abt-img1.jpg" alt=""> -->
+            <img src="images/abt-img2.avif" alt="">
+        </div>
+        <div class="abt-text">
+            <h2>Welcome to uniedu ,Enhance your skills with best online courses</h2>
+            <p>You can Start and finish one of these popular course in under a day - for free! Check Out the list below.. Take the Course for FREE</p>
+            <div class="abt-fe">
+                <img src="images/abt-fe1.jpg" alt="">
+                <div class="fe-txt">
+                    <h5>400+Course</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aliquid.lorem </p>
+                </div>
+            </div>
+            <div class="abt-fe">
+                <img src="images/abt-fe2.png" alt="">
+                <div class="fe-txt">
+                    <h5>LIfetime Access</h5>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit, aliquid.lorem </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- features -->
+
+    <section id="features">
+        <h1>Awesome Features</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="fea-base">
+            <div class="fea-box">
+                <i class="fa fa-graduation-cap"></i>
+                <h3>Scholarship Facility</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, porro!</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-certificate"></i>
+                <h3>Sell Online Course</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, porro!</p>
+            </div>
+            <div class="fea-box">
+                <i class="fa fa-award"></i>
+                <h3>Global Certifications</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum, porro!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- trusted -->
+
+    <section id="trust">
+        <h1>Tusted By</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="trust-img">
+            <img src="images/trust1.jpg" alt="">
+            <img src="images/trust2.png" alt="">
+            <img src="images/trust3.png" alt="">
+            <img src="images/trust4.jpg" alt="">
+            <img src="images/trust5.jpg" alt="">
+            <img src="images/trust6.avif" alt="">
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-col">
+            <h3>Top Products</h3>
+            <li>Manage Reputations</li>
+            <li>power tools</li>
+            <li>managed website</li>
+            <li>marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Quick Links</h3>
+            <li>jobs</li>
+            <li>Brand Assets</li>
+            <li>Investor Relations</li>
+            <li>Terms of service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Features</h3>
+            <li>Manage Reputations</li>
+            <li>power tools</li>
+            <li>managed website</li>
+            <li>marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Resources</h3>
+            <li>Guides</li>
+            <li>Research</li>
+            <li>Experts</li>
+            <li>marketing service</li>
+        </div>
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>You can trust us .we only send promo effers,</p>
+            <div class="subscribe">
+                <input type="text" name="Email Address" placeholder="Enter the email address" alt="">
+                <a href="#" class="yellow">SUBSCRIBE</a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @2023 All Rights Reserved |This template is made by uniedu</p>
+            <div class="pro-links">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-linkedin"></i>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function () {
+            $('nav .navigation ul').addClass('active');
+        });
+        $('#menu-close').click(function () {
+            $('nav .navigation ul').removeClass('active');
+        });
+    </script>
+</body>
+
+</html>
